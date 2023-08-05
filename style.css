@@ -74,6 +74,13 @@ source{
     height: 60px;
 
 }
+.swiper-pagination{
+    width: 15rem;
+}
+.swiper-pagination-bullet-active{
+    background:#F100A0;
+    
+}
 /* .btn{
     display: flex;
     justify-content: center;
