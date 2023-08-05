@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "Barbie";
+    src: url(./font/absolute-blonde.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    height: 100vh;
+    background-image: url(./img/backdressjpg.jpg);
+    font-family: "Barbie";
+ }
+header .logo{
+    width: 40vh;
+    padding-left: 30px;
+    margin: 20px auto;
+}
+main{
+    /* display: flex;
+    justify-content: center; */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+video{
+    width:100%;
+    border: 5px solid #F100A0;
+    border-radius: 10px;
+}
+source{
+    width: 500px ;
+}
+/* main .barbieland{
+    width: 50%;
+    border: 5px solid #F100A0;
+    border-radius: 3%;
+    
+} */
+/* section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap:50px;
+    margin-top: 40px;
+} */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.movies{
+    padding: 50px 0 15px 0;
+}
+.swiper{
+    width: 100%;
+}
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+}
+.swiper-button-prev , .swiper-button-next{
+    /* position: relative; */
+    color: #F100A0;
+    font-weight: 900;
+    border: 1px solid #f100a0;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+
+}
+/* .btn{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+} */
+
+@media(max-width:991px){
+    body{
+        min-height: 0vh;
+    }
+    .movies{
+        padding: 30px;
+    }
+    source{
+        width: 300px;
+    }
+    .swiper-slide{
+        background-position: center;
+        background-size: cover;
+        width: 250px;
+    }
+    header{
+      display: flex;
+      justify-content: center;  
+      align-items: center;
+    }
+    header .logo{
+        width: 20vh;
+
+    }
+   
+}
+
+/* div{
+    position: relative;
+    width:250px;
+    transition: all .3s ease;
+}
+
+div img:first-child{
+    box-shadow: 0 60px 60px
+    -60px rgba(0, 30, 255, 0.5); 
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+}
+div img:last-child{
+   position: absolute;
+   width: 200px;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: 5px auto;
+   transform: translateY(25%);
+   transition: .3s ease;
+   opacity: 0;
+}
+div img.ken-a:last-child{
+    position: absolute;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition: .3s ease;
+    opacity: 0;
+ }
+ div img.dua-a:last-child{
+    position: absolute;
+    width: 170px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 17px auto;
+    transform: translateY(25%);
+    transition: .3s ease;
+    opacity: 0;
+ }
+div:hover{
+    transform: 
+    perspective(250px)
+    rotateX(10deg)
+    translateY(-5%)
+    translateZ(0);
+}
+div::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: 
+    linear-gradient(
+        to bottom,
+        transparent 10%,
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0) 95%
+    );
+    opacity: 0;
+    transition: all .3s ease;
+}
+div:hover::before{
+    opacity: 1;
+}
+div:hover img:last-child{
+    opacity: 1;
+    transform: translateY(10%);
+}
+     */
