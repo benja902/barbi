@@ -81,6 +81,16 @@ source{
     background:#F100A0;
     
 }
+.btn .slider-arrow i {
+    font-size: 2rem;
+    color: #F100A0;    
+  }
+  .btn .slider-arrow i.i {
+    transform: scaleX(-1); 
+  }
+.btn .slider-arrow::after {
+  content: '';
+}
 /* .btn{
     display: flex;
     justify-content: center;
