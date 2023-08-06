@@ -36,10 +36,12 @@ video{
 }
 #aRzklaXf   {
     border: 5px solid #F100A0;
+    
 }
-source{
-    width: 500px ;
-}
+/* source{
+    width: 40% ;
+} */
+
 /* main .barbieland{
     width: 50%;
     border: 5px solid #F100A0;
@@ -114,8 +116,11 @@ source{
     .movies{
         padding: 30px;
     }
-    source{
+    /* source{
         width: 300px;
+    } */
+    #aRzklaXf   {
+        max-height: 350px;
     }
     .swiper-slide{
         background-position: center;
