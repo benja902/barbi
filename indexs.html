@@ -3,9 +3,12 @@
 <head>
     <title>Reproductor de Video HLS</title>
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js">
+</script>
 </head>
 <body>
-    <video id="video" controls></video>
+    <!-- <video id="video" controls></video>
     <script>
         var video = document.getElementById('video');
         var hls = new Hls();
@@ -16,6 +19,11 @@
         } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
             video.src = 'https://storage.googleapis.com/barbie9/feee1445c42a46a6a9f9329baf09778c/bar.m3u8';
         }
-    </script>
+    </script> -->
+        <body>
+        <div id="player"></div>
+        <script>
+            var player = new Clappr.Player({source: "https://storage.googleapis.com/barbie9/feee1445c42a46a6a9f9329baf09778c/bar.m3u8", parentId: "#player"});
+        </script>
 </body>
 </html>
