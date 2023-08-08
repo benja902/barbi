@@ -36,6 +36,13 @@ video{
     border-radius: 10px;
     margin-bottom: 30px;
 }
+#player{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* border: 5px solid #F100A0;
+    border-radius: 10px;
+    margin-bottom: 30px; */
+}
 #aRzklaXf   {
     border: 5px solid #F100A0;
     border-radius: 10px;
